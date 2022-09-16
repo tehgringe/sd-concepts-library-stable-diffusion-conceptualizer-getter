@@ -6,6 +6,7 @@ from diffusers import StableDiffusionPipeline
 from huggingface_hub import HfApi
 from transformers import CLIPTextModel, CLIPTokenizer
 
+#Change this to the location where Automatic1111 is located and /embeddings <-- you will likely need to create this in the root of the folder
 dest_path = '/Volumes/embeddings/'
 
 api = HfApi()
